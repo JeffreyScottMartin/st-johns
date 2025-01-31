@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Oswald, Merriweather } from "next/font/google";
 import "./globals.css";
 import ThemeSwitcher from "@/app/ui/themeSwitcher";
-import FixedBackgroundImage from "@/app/ui/fixedBackgroundImage";
 
 const oswald = Oswald({
   variable: "--font-oswald",
