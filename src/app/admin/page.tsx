@@ -3,7 +3,10 @@ import { useEffect } from "react";
 import Head from "next/head";
 
 interface NetlifyIdentity {
-  on: (event: string, callback: (user: any) => void) => void; // Update here
+  on: (
+    event: string,
+    callback: (user: { id: string; email: string } | null) => void
+  ) => void; // Update here
   // Add other properties and methods as needed
 }
 
