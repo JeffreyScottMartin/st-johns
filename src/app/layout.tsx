@@ -31,13 +31,8 @@ export default function RootLayout({
       <body
         className={`${oswald.variable} ${merriweather.variable} antialiased bg-backgroundColor text-typography`}
       >
-        <div className="h-full -z-10">
-          <FixedBackgroundImage />
-        </div>
-        <div className="w-full absolute top-0 left-0 w-full z-10">
-          <ThemeSwitcher />
-          {children}
-        </div>
+        <ThemeSwitcher />
+        {children}
       </body>
     </html>
   );
