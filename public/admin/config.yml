@@ -61,4 +61,5 @@ collections:
           widget: "image",
           required: false,
         }
+      - { label: "Location", name: "location", widget: "map", required: false }
       - { name: "body", label: "Body", widget: "markdown" }
