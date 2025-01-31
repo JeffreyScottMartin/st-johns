@@ -8,9 +8,19 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        header: ["var(--font-oswald)", "sans"],
+        body: ["var(--font-merriweather)", "serif"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "var(--color-primary)",
+        secondary: "var(--color-secondary)",
+        buttons: "var(--color-buttons)",
+        typography: "var(--color-typography)",
+        typographySecondary: "var(--color-typography-secondary)",
+        accent: "var(--color-accent)",
+        backgroundColor: "var(--color-background)",
+        buttonText: "var(--color-button-text)",
       },
     },
   },

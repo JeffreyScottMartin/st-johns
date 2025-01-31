@@ -1,0 +1,10 @@
+html[data-theme="lightTheme"] {
+  --color-primary: #003366;
+  --color-secondary: #ffd700;
+  --color-buttons: #c8001e;
+  --color-button-text: #f7f7f7;
+  --color-typography: #222222;
+  --color-typography-secondary: #555555;
+  --color-accent: #00693c;
+  --color-background: #f7f7f7;
+}
